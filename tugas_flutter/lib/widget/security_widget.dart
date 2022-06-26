@@ -5,6 +5,7 @@ class security_widget extends StatelessWidget {
   security_widget({Key? key}) : super(key: key);
 
   List<Map> securityItems = [
+    {'text': '', 'trailing_item': const Image.asset('mode_kunci.png')},
     {
       'text': 'Perlindungan privasi / aplikasi',
       'trailing_item': Switch(
@@ -30,7 +31,7 @@ class security_widget extends StatelessWidget {
           })
     },
   ];
-
+  @override
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
