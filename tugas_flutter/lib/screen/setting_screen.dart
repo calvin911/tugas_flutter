@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:kelompok/widget/appearance_widget.dart';
+import 'package:kelompok/widget/language_widget.dart';
+import 'package:kelompok/widget/privacy_verification_widget.dart';
 import 'package:kelompok/widget/security_widget.dart';
 
 class setting_screen extends StatelessWidget {
@@ -13,6 +15,10 @@ class setting_screen extends StatelessWidget {
       return security_widget();
     } else if (title == 'Tampilan') {
       return appearance_widget();
+    } else if (title == 'Bahasa') {
+      return language_widget();
+    } else if (title == 'Verifikasi Privasi') {
+      return privacy_verification_widget();
     }
   }
 

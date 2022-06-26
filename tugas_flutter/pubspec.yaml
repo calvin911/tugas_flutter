@@ -59,8 +59,15 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - Indonesia.png
+    - English.png
+    - Spanish.png
+    - Italian.png
+    - French.png
+    - Deutsch.png
+    - Japanese.png
+    - Chinese.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
